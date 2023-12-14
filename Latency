@@ -2,3 +2,10 @@ Latency is delay or lag in data transmission or processing.
 
 Important Links:
   https://www.geeksforgeeks.org/latency-in-system-design/
+
+Latency can be handled by taking into account:
+  1. Load balancing: By distributing incoming traffic among several servers, it is possible to avoid overloading any one server. When routing requests to the least busy server, load balancers must take latency into account.
+  2. Caching: By bringing frequently accessed material closer to consumers, data retrieval from far-off sources becomes less necessary, resulting in lower latency.
+  3. Content delivery networks (CDNs): CDNs serve material from nearby servers to users to reduce latency by distributing content among geographically dispersed servers.
+  4. Optimizing the database: Database queries can cause a lot of latency. Reducing response times is facilitated by query and database design optimization.
+  5. Asynchronous processing: By permitting other processes to continue while awaiting results, tasks can be broken down into smaller components and processed asynchronously to reduce delay.
